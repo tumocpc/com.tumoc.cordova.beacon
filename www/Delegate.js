@@ -17,8 +17,8 @@
  under the License.
  */
 
-var _ = require('com.unarin.cordova.beacon.underscorejs');
-var Regions = require('com.unarin.cordova.beacon.Regions');
+var _ = require('com.tumoc.cordova.beacon.underscorejs');
+var Regions = require('com.tumoc.cordova.beacon.Regions');
 
 
 /**
