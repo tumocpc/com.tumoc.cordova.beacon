@@ -16,7 +16,7 @@
        specific language governing permissions and limitations
        under the License.
 */
-package com.unarin.cordova.beacon;
+package com.tumoc.cordova.beacon;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
