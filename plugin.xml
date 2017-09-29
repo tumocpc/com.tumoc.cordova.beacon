@@ -5,7 +5,7 @@
     <description>Proximity Beacon Monitoring and Transmission Plugin (supporting iBeacons)</description>
     <license>Apache 2.0</license>
     <keywords>cordova,ibeacon,beacon,bluetooth,le</keywords>
-    <repo>https://github.com/petermetz/cordova-plugin-ibeacon.git</repo>
+    <repo>https://github.com/tumocpc/com.tumoc.cordova.beacon.git</repo>
 
     <!-- Third party libraries -->
     <js-module name="underscorejs" src="www/lib/underscore-min-1.6.js">
@@ -116,10 +116,10 @@
             </service>
         </config-file>
 
-        <source-file src="src/android/LocationManager.java" target-dir="src/com/tumoc/cordova/beacon" />
-        <source-file src="src/android/IBeaconServiceNotifier.java" target-dir="src/com/tumoc/cordova/beacon" />
-        <source-file src="src/android/ILocationManagerCommand.java" target-dir="src/com/tumoc/cordova/beacon" />
-        <source-file src="src/android/PausableThreadPoolExecutor.java" target-dir="src/com/tumoc/cordova/beacon" />
+        <source-file src="src/android/LocationManager.java" target-dir="src/com/unarin/cordova/beacon" />
+        <source-file src="src/android/IBeaconServiceNotifier.java" target-dir="src/com/unarin/cordova/beacon" />
+        <source-file src="src/android/ILocationManagerCommand.java" target-dir="src/com/unarin/cordova/beacon" />
+        <source-file src="src/android/PausableThreadPoolExecutor.java" target-dir="src/com/unarin/cordova/beacon" />
 
 		<source-file src="libs/android/altbeacon.jar" target-dir="libs" framework="true" />
     </platform>
